@@ -1,6 +1,7 @@
 package br.com.pos.web.dto;
 
-import com.poc.orderservice.domain.model.Order;
+
+import br.com.pos.domain.models.Order;
 
 import java.math.BigDecimal;
 import java.time.Instant;

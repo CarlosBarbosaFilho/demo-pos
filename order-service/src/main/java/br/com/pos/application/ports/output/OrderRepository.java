@@ -1,7 +1,6 @@
 package br.com.pos.application.ports.output;
 
 import br.com.pos.domain.models.Order;
-import com.poc.orderservice.domain.model.Order;
 
 import java.util.Optional;
 import java.util.UUID;

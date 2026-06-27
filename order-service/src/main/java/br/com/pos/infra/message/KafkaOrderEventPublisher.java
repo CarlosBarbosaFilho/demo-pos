@@ -1,8 +1,8 @@
 package br.com.pos.infra.message;
 
-import com.poc.orderservice.application.port.out.OrderEventPublisher;
-import com.poc.orderservice.domain.event.OrderCreatedEvent;
-import com.poc.orderservice.domain.exception.EventPublishingException;
+import br.com.pos.application.ports.output.OrderEventPublisher;
+import br.com.pos.domain.events.OrderCreatedEvent;
+import br.com.pos.domain.exception.EventPublishingException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
